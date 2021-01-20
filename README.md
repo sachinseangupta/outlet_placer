@@ -1,5 +1,7 @@
 Outlet Placer is a geometric optimization tool that schematically places electrical outlets in a room according to design constraints and National Electrical Code (NEC) rules. This was a take home test made publicly available by the San Francisco-based housing startup Social Construct for their computational geometry role (which can be found here: https://github.com/SocialConstruct/outlets). I used this test as a technical exercise to develop my software development skills.
 
+![Solution](https://user-images.githubusercontent.com/63329231/105241262-69bb1b00-5b3b-11eb-8af0-12d90fa423de.png)
+
 The purpose of this tool is to place the minimum number of electrical outlets required for a NEC-compliant space with rooms of predetermined sizes and with floor supports that had to be avoided. I modeled the 2D room layout, floor supports, and outlets using the Shapely geometry library and utilized the blackbox optimization tool RBFOpt for the actual optimization procedure. A succint explanation of how blackbox optimization and RBFOpt work can be found here: https://developer.ibm.com/technologies/analytics/projects/rbfopt/.
 
 
