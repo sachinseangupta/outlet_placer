@@ -3,6 +3,7 @@ Outlet Placer is a geometric optimization tool that schematically places electri
 *Figure: (Left) Provided space layout with walls on which outlets must be placed. (Right) Visualization of floor support locations and outlets.*
 
 
+
 The purpose of this tool is to place the minimum number of electrical outlets required for a NEC-compliant space with rooms of predetermined sizes and with floor supports that had to be avoided. I modeled the 2D room layout, floor supports, and outlets using the Shapely geometry library and utilized the blackbox optimization tool RBFOpt for the actual optimization procedure. A succint explanation of how blackbox optimization and RBFOpt work can be found here: https://developer.ibm.com/technologies/analytics/projects/rbfopt/.
 
 
